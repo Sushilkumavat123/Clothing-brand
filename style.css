@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+    background: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+
+}
+
+section nav .logo {
+    font-size: 35px;
+    color: black;
+    margin: 5px 0;
+    cursor: pointer;
+    position: relative;
+    left: -4%;
+}
+
+section nav .logo span {
+    color: darkred;
+    
+}
+
+section nav ul {
+    list-style: none;
+}
+
+section nav ul li {
+    display: inline-block;
+    margin: 5px 15px;
+}
+
+section nav ul li a {
+    text-decoration: none;
+    color: black;
+    transition: 0.2s;
+}
+
+section nav ul li a:hover {
+    color: #c72092;
+}
+
+section .streetstyle {
+    background-image: url(streetstyle.JPG);
+    height: 100vh;
+    background-size: cover;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 100px;
+    image-resolution: 100%;
+    position: relative;
+   
+}
+.streetstyle1, .streetstyle2 {
+
+    background-image: url(streetstyle1.JPG);
+    height: 100vh;
+    background-size: cover;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 800px;
+    margin-bottom: 1000px;
+    image-resolution: 100%;
+
+}
+
+.streetstyle1 {
+   
+}
